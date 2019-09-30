@@ -1,8 +1,9 @@
   <!-- START FOOTER SECTION  -->
   
   <footer class="footer-section text-center">
-    <h2><span class="extra-color">FINANCEZ VOTRE RÉNOVATION AVEC RÉNO FINANCE</span> © <?php echo Date('y/m/d') ?> from <?php bloginfo('name')?> Réno Assistance Inc.</h2>
-    <p>Accueil | Prêt rénovation | Contact | Notes légales</p>
+  <div class="row">
+ <?php dynamic_sidebar('widget-home-two')?>
+</div>
   </footer>
 
   <!-- END FOOTER SECTION  -->

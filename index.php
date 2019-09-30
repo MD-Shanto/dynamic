@@ -99,20 +99,17 @@
 <!-- START PROJECT SECTION  -->
 <section class="project-section" id="project">
   <div class="container">
-    <article class="project-articles">
-      <h1>Exemples de projets</h1>
-      <p>Réalisez votre projet de rêve avec l'aide de Réno-Finance et ses partenaires</p>
-    </article>
+      
     <div class="row project-row">
-
       <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post() ?>
           <?php get_template_part('content',get_post_format()) ?>
+          
         <?php endwhile; ?>
+       
         <?php else: ?>
 <h2><?php esc_html_e('www.google.com'); ?></h2>
       <?php endif; ?>
-
 
     </div>
     <div class="bottom-button text-center">
@@ -171,6 +168,8 @@
       </div>
     </div>
   </div>
+
+
 </section>
 <!-- END INFORMATION SECTION  -->
 

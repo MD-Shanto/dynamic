@@ -21,9 +21,11 @@
           <p class="card-text-two"><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')) ?>">
               Written by <?php the_author(); ?> on <?php the_time(); ?>
             </a></p>
+            <?php the_posts_pagination(); ?>
         </div>
       </div>
     </a>
+  
   </div>
 
 <?php else : ?>

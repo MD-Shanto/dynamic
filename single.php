@@ -24,7 +24,7 @@
     </title>
     <?php wp_head(); ?>
 </head>
-
+<?php dynamic_sidebar('title-one')?>
 
 <aside class="sidebar">
     <h2>Catagories</h2>
@@ -38,9 +38,11 @@
         echo '<li><a href="' . get_category_link($category->term_id) . '" rel="bookmark"> <i class="glyphicon glyphicon-asterisk"> '  . $category->name . '</i>' . '' . $category->description . '</a></li>';
     }
     ?>
-    <?php if (is_active_sidebar('sidebar')) : ?>
-        <?php dynamic_sidebar('sidebar') ?>
-    <?php endif; ?>
+    <h1>Archives</h1>
+    <?php wp_get_archives( array( 'type' => 'monthly', 'limit' => 12,'order' => 'ASC' )); ?>
+    
+    <?php dynamic_sidebar('widget-home-one')?>
+
 </aside>
 
 <h2>The Blog Posts</h2>

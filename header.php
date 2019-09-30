@@ -82,10 +82,9 @@
                         <a class="nav-link" href="<?php echo get_theme_mod('extra_link_two_href', 'www.youtube.com'); ?>">
                             <?php echo get_theme_mod('extra_link_two', 'GAMES'); ?></a>
                     </div>
-                    <form action="<?php echo home_url('/')?>" method="get">
-                  <input type="search" name="s" class="search-box">
-                  <button type="submit" class="btn btn-primary">Search</button>
-                </form>
+                    
+                   <?php get_search_form()?>
+
                 </div>
 
              
