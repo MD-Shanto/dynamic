@@ -1,0 +1,1063 @@
+/*
+Theme Name: Renofinance
+Theme URI: www.renofinance.com
+Author: MD_Santo
+Author URI: www.santodev.com
+Description: Renofinance brings your site to life with immersive featured images and subtle animations. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+Text Domain: renofinance
+*/
+
+/* Custom Style  */
+/*
+*
+ Custom Font Form Online
+ *
+ * */
+@import url('https://fonts.googleapis.com/css?family=Muli:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap');
+
+/* 
+ *
+ Additional Style
+ *
+ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* Header Section  */
+a.navbar-brand {
+    background: #fff;
+    padding: 4rem;
+}
+
+a.navbar-brand img {
+    height: 4.7rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1.6rem;
+    margin-left: 1.2rem;
+}
+
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #96d320;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    margin-left: 0;
+}
+
+.extra-list {
+    margin-left: 8rem;
+    font-size: 1.5rem;
+}
+
+button.btn.btn-primary {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border-radius: 0;
+    background-color: #96d320;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.2s ease-in;
+    border: none;
+}
+
+button.btn.btn-primary:hover {
+    border-radius: 1rem;
+    background-color: #fff;
+    color: black;
+}
+
+.link-section {
+    margin-left: 5.4rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.link-section a.nav-link {
+    color: #fff;
+}
+
+div#navbarSupportedContent {
+    margin-left: .1rem;
+}
+
+/* Showcase Section  */
+
+
+
+nav.navbar.navbar-expand-lg.navbar-dark {
+    z-index: 1;
+    background: #626e77e7;
+    padding: 0rem;
+}
+
+.form-card {
+    margin: 23rem 10rem 0 0rem;
+    ;
+    border: .1px solid #b9c4cb;
+    background: #fff;
+    padding-bottom: 3rem;
+    overflow-x: hidden
+}
+
+.title.d-flex.flex-row {
+    padding-left: 2rem;
+}
+
+.title.d-flex.flex-row {
+    border-bottom: .1rem solid #b9c4cb;
+}
+
+.showcase .title h1 {
+    font-size: 4rem;
+    color: #aedc64;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.showcase .title h1 {
+    font-size: 4rem;
+    color: #aedc64;
+    font-weight: 800;
+}
+
+.showcase .title p {
+    margin: 3rem 0px 0 3rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+
+/* Form 
+  */
+
+span.input-group-text {
+    background: transparent;
+    border-left: 0;
+    padding-right: 1.7rem;
+    border-radius: 0;
+}
+
+
+.input-group.input-one {
+    padding: 1.8rem 3.3rem 0;
+}
+
+.input-group {
+    padding: 1.2rem 3.3rem 0;
+}
+
+.input-group ::placeholder {
+    color: #c3cbd0;
+    font-size: 1.7rem;
+}
+
+.input-group input.form-control.input-two::placeholder {
+    color: #5a6770;
+    font-size: 1.7rem;
+}
+
+input.form-control {
+    border-radius: 0;
+    border-right: none;
+    padding: 2rem 2rem;
+}
+
+.showcase .button-1 .btn,
+.showcase .button-2 .btn {
+    background: #5a6770;
+    margin: 1rem 0 0 0;
+    padding: 2rem 3.9rem 2rem 3.8rem;
+    font-size: 1.3rem;
+}
+
+.showcase p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.showcase .button-2 .btn {
+    padding: 2rem 7.9rem 2rem 5.8rem;
+    background: #96d320;
+}
+
+.showcase .button-1 .btn:hover {
+    border-radius: 10rem;
+    background-color: rgb(38, 207, 114);
+    color: #fff;
+}
+
+.showcase .button-2 .btn:hover {
+    border-radius: 10rem;
+    background-color: rgb(38, 207, 114);
+    color: #fff;
+}
+
+.showcase .header-text h1 {
+    color: #fff;
+    font-size: 6rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0 0px 8px black;
+}
+
+
+.showcase .header-text {
+    margin-top: 15rem;
+}
+
+
+/* 
+ Unique Section CSS 
+  */
+
+.unique-section {
+    width: 100%;
+    max-width: 100%;
+    background: #fff;
+    padding-bottom: 2rem;
+}
+
+.unique-section h1.section-heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #96d320;
+    margin-top: 6.5rem;
+}
+
+.unique-section p.section-description {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5a6770;
+}
+
+.column-section {
+    margin-top: 5rem;
+}
+
+.column-section .image-one {
+    width: 6.7rem;
+    height: 100%;
+    margin-bottom: 3rem;
+    max-width: 100%;
+}
+
+.column-section .image-two,
+.column-section .image-three,
+.column-section .image-four {
+    width: 9rem;
+    height: 100%;
+    margin-bottom: 3.5rem;
+    max-width: 100%;
+}
+
+.column-section h2 {
+    font-size: 2.2rem;
+    color: #96d320;
+    margin-bottom: 1rem;
+}
+
+.column-section article p {
+    font-size: 1.2rem;
+    color: #5a6770;
+}
+
+/* 
+ EXPERIENCE SECTION CSS 
+  */
+
+.experience-section {
+    width: 100%;
+    max-width: 100%;
+    background-color: #5a6770;
+    height: 83vh;
+}
+
+.experience-section h1.experience-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #96d320;
+    margin-top: 6.5rem;
+    font-weight: 600;
+    padding-top: 6.4rem;
+}
+
+.experience-section .image-1,
+.experience-section .image-2,
+.experience-section .image-3 {
+    width: 23%;
+    height: 69%;
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.experience-section h2 {
+    color: #96d320;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.experience-section article p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.experience-section .row.experience-row.text-center {
+    margin-top: 5rem;
+    border-bottom: .1rem solid #fff;
+    padding-bottom: 6rem;
+}
+
+.experience-section .btn.bottom-button {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    padding: 1.3rem 3rem;
+    text-align: center;
+}
+
+/* 
+ PROJECT SECTION CSS 
+  */
+.project-section {
+    width: 100%;
+    max-width: 100%;
+    background-color: #96d320;
+    height: 80vh;
+}
+
+.project-section .project-articles h1 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 6rem;
+    font-weight: 700
+}
+
+.project-section .project-articles p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #5a6770;
+    margin-top: 1.2rem;
+}
+
+.project-section .project-row .card {
+    border: .1rem solid #7aac1a;
+}
+
+.project-section .card .card-title {
+    color: #5a6770;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.project-section .card .card-text-two {
+    color: #5a6770;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.project-section .card .card-text {
+    font-size: 1.4rem;
+}
+
+.project-section .card .card-title-two {
+    color: #96d320;
+    font-size: 2.2rem;
+}
+
+.project-section .row.project-row {
+    margin-top: 5rem;
+}
+
+.project-section .btn.btn-primary.post-button {
+    background: #5a6770;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    padding: 1.2rem 4.5rem;
+}
+
+.project-section a {
+    text-decoration: none;
+
+    color: black;
+    font-weight: 500;
+}
+
+/* Dynamic CSS  */
+.card {
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 9px 9px -8px black;
+}
+
+.card img.attachment-post-thumbnail {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+}
+
+.card-no-image img {
+    width: 100%;
+    height: 14.2rem;
+}
+
+.text-all p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.single-page .single-image img {
+    height: 50rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+.single-page h1 {
+    font-family: unset;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rebeccapurple;
+}
+
+.single-page p {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* 
+ INFORMATION SECTION CSS 
+  */
+
+.information-section {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+    height: 60vh;
+}
+
+.information-section .update-link {
+    margin-top: 2.2rem;
+}
+
+.information-section .update-link a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+}
+
+.information-section .update-link a:hover {
+    color: rgb(0, 132, 255);
+}
+
+.information-section h1 {
+    color: #84c20c;
+    font-size: em;
+    margin: 18rem 0 0 0;
+    font-weight: 500;
+}
+
+/* 
+ FOOTER SECTION CSS 
+  */
+.footer-section {
+    background-color: #5a6770;
+    height: 24vh;
+}
+
+.footer-section .extra-color {
+    color: #96d320;
+    font-weight: 500;
+}
+
+.footer-section h2 {
+    color: #fff;
+    padding-top: 7rem;
+    font-size: 1.7vw;
+}
+
+.footer-section p {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-top: 1.5rem;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/* Sticky Menu  */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 9%;
+    transition: all 0.6s;
+}
+
+.comments-form p.comment-form-commenttextarea#comment {
+    padding: 8rem;
+}
+
+.comments-form .form-submit input.submit {
+    background-color: #c35622;
+    padding: 1.5rem 7rem;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.comments-form {
+    padding: 4rem;
+    background: #419667;
+}
+
+aside.sidebar {
+
+    margin-top: 26rem;
+    padding: 10rem 4rem;
+    background-color: #e0e0e0;
+    float: right;
+}
+
+/* Aside Post  */
+.project-section .aside-content {
+    background-color: black;
+    color: #fff;
+    width: 29%;
+    margin: 0 0 49px 3px;
+    text-align: center;
+}
+
+
+
+/* Responsive  */
+
+input.search-box {
+    border: none;
+    width: 70%;
+    padding: 0.4rem 0rem;
+}
+@media (max-width: 1089px) {
+    a.navbar-brand {
+        margin-left: 0rem;
+    }
+
+    a.navbar-brand img {
+        height: 3.3rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    /* .showcase {
+        height: 110vh;
+    } */
+
+    .showcase .title p {
+        margin: 3rem 0px 0 1.5rem;
+        font-size: 1rem;
+    }
+
+
+    a.navbar-brand img {
+        height: 3.3rem;
+    }
+
+    .showcase .button-1 .btn,
+    .showcase .button-2 .btn {
+        margin: 1rem 0 0 0;
+        padding: 2rem 2.8rem 2rem 2rem;
+        font-size: 1rem;
+    }
+
+    .showcase .button-2 .btn {
+        padding: 2rem 4.8rem 2rem 4.5rem;
+    }
+ 
+}
+
+@media (max-width: 991px) {
+    aside.side-bar {
+        display: none;
+    }
+    nav.navbar {
+        padding-bottom: 8rem;
+    }
+   
+    .showcase .title p {
+        margin: 3rem 0rem 3rem 18.5rem;
+        font-size: 2rem;
+    }
+
+    .showcase .title h1 {
+        font-size: 5rem;
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+
+
+    .form-card {
+        margin: 20rem auto;
+        ;
+        margin-bottom: 7rem;
+    }
+
+    .showcase .header-text {
+        margin-top: 0;
+    }
+
+
+    a.navbar-brand img {
+        height: 3.3rem;
+        width: 80%;
+        padding-left: 7rem;
+    }
+
+    .navbar span.navbar-toggler-icon {
+        font-size: 2.5rem;
+    }
+    button.navbar-toggler.collapsed {
+        margin-left: 2rem;
+    }
+
+    .showcase .button-1 .btn,
+    .showcase .button-2 .btn {
+        padding: 2rem 23.4rem;
+        ;
+    }
+
+    .showcase .button-2 .btn {
+        padding: 2rem 25.6rem;
+        ;
+    }
+
+    .navbar-nav li.nav-item.active,
+    .navbar-nav li.nav-item {
+        text-align: center;
+        margin-top: 2rem;
+        border-bottom: .1rem solid #fff;
+        padding-bottom: 1.5rem;
+        transition: all 0.6s ease-in;
+    }
+
+    .navbar-nav li.nav-item.active,
+    .navbar-nav li.nav-item:hover {
+        background-color: #fff;
+        padding: 2rem;
+    }
+
+    ul.navbar-nav.text-dark {
+        margin-top: 4rem;
+    }
+
+    .extra-list {
+        text-align: center;
+        margin: 3rem 0 0 0;
+        padding-bottom: 7rem;
+ 
+    }
+
+    .extra-list .link-section {
+        display: block;
+        margin: 0;
+    }
+
+    .showcase .header-text {
+        margin-top: 0rem;
+        padding: 0;
+    }
+
+    .showcase .header-text h1 {
+        text-align: center;
+    }
+
+    .information-section h1 {
+        text-align: left;
+    }
+
+
+    .customize {
+        background: #626e77e7;
+        padding: 0 10.5rem 6rem 7.4rem;
+
+    }   
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+    .showcase .title p {
+        margin: 3rem 0px 0 5.5rem;
+        font-size: 1.4rem;
+    }
+
+
+    .form-card {
+        margin: 20rem auto;
+        ;
+    }
+
+
+    .navbar span.navbar-toggler-icon {
+        font-size: 2.5rem;
+    }
+
+    .showcase .button-1 .btn,
+    .showcase .button-2 .btn {
+        padding: 2rem 14.4rem;
+
+    }
+
+    .showcase .button-2 .btn {
+        padding: 2rem 16.6rem;
+
+    }
+
+    button.navbar-toggler {
+        margin: 1.5rem auto;
+    }
+
+    .form-card {
+        margin: 23rem auto;
+    }
+
+    .unique-section {
+        margin-top: 10rem;
+    }
+
+    .showcase .form-card {
+        margin: 25rem 0 0 0;
+    }
+
+    .showcase h1 {
+        margin-top: 9rem;
+    }
+
+    .unique-section .col:nth-child(2),
+    .unique-section .col:nth-child(3),
+    .unique-section .col:nth-child(4) {
+        margin-top: 2rem;
+    }
+
+    .experience-section .image-1,
+    .experience-section .image-2,
+    .experience-section .image-3 {
+        width: 17%;
+    }
+
+    .experience-section .number-two,
+    .experience-section .number-three {
+        margin-top: 4rem;
+    }
+
+    .experience-section {
+        height: 107rem;
+    }
+
+    .project-section {
+        height: 250vh;
+    }
+
+    .project-section .card {
+        width: 63%;
+        margin: 3rem auto;
+    }
+
+    footer.footer-section.text-center {
+        margin-top: 35rem;
+    }
+
+    .information-section h1 {
+        margin: 11rem 0 0 0;
+        text-align: center;
+    }
+
+    .information-section .col-sm-3 {
+        text-align: center;
+    }
+
+    .information-section h1 {
+        margin: 7rem 0 0 0;
+        text-align: center;
+    }
+
+    .information-section {
+        height: 6vh;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .showcase {
+        height: 120vh;
+    }
+
+    .showcase .title p {
+        margin: 1.5rem 0px 0 7rem;
+        font-size: 1.2rem;
+    }
+
+    .showcase .title h1 {
+        font-size: 3rem;
+        margin-left: 0rem;
+    }
+
+    a.navbar-brand {
+        margin-left: 0rem;
+        margin-right: 0;
+    }
+
+    .form-card {
+        margin: 20rem auto;
+        ;
+    }
+
+    a.navbar-brand img {
+        padding: 0;
+        width: 69%;
+    }
+
+    .navbar span.navbar-toggler-icon {
+        font-size: 2.5rem;
+    }
+
+    .showcase .button-1 .btn,
+    .showcase .button-2 .btn {
+        padding: 2rem 16.1rem;
+
+    }
+
+    .showcase .button-2 .btn {
+        padding: 2rem 18.2rem;
+
+    }
+
+    button.navbar-toggler {
+        margin: 1.5rem auto;
+    }
+
+    .showcase {
+        height: 125rem;
+    }
+
+    .form-card {
+        margin: 23rem auto;
+    }
+
+    .unique-section {
+        margin-top: 10rem;
+    }
+
+    .showcase .form-card {
+        margin: 25rem 0 0 0;
+    }
+
+    .showcase h1 {
+        margin-top: 9rem;
+    }
+
+    .unique-section .col:nth-child(2),
+    .unique-section .col:nth-child(3),
+    .unique-section .col:nth-child(4) {
+        margin-top: 2rem;
+    }
+
+    .experience-section .image-1,
+    .experience-section .image-2,
+    .experience-section .image-3 {
+        width: 17%;
+    }
+
+    .experience-section .number-two,
+    .experience-section .number-three {
+        margin-top: 4rem;
+    }
+
+    .experience-section {
+        height: 111rem;
+    }
+
+    .project-section {
+        height: 200rem;
+    }
+
+    .project-section .card {
+        width: 63%;
+        margin: 3rem auto;
+    }
+
+    footer.footer-section.text-center {
+        margin-top: 90rem;
+    }
+
+    .information-section h1 {
+        margin: 11rem 0 0 0;
+        text-align: center;
+    }
+
+    .information-section .col-sm-3 {
+        text-align: center;
+    }
+
+    .information-section h1 {
+        margin: 7rem 0 0 0;
+        text-align: center;
+    }
+
+    .information-section {
+        height: 6vh;
+    }
+}
+
+@media (max-width: 476px) {
+
+    .showcase {
+        height: 135rem;
+    }
+
+    .showcase .title p {
+        margin: 1.5rem 0px 0 7rem;
+        font-size: 1.2rem;
+    }
+
+    .showcase .title h1 {
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    a.navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2.2rem 0 2.2rem 1rem;
+    }
+
+    .form-card {
+        margin: 20rem auto;
+        ;
+    }
+
+    a.navbar-brand img {
+        padding: 0;
+        width: 72%;
+    }
+
+    .navbar span.navbar-toggler-icon {
+        font-size: 2.5rem;
+    }
+
+    .showcase .button-1 .btn,
+    .showcase .button-2 .btn {
+        padding: 2rem 11.8rem;
+
+    }
+
+    /* padding: 2rem 3.7rem; */
+
+    .showcase .button-2 .btn {
+        padding: 2rem 14rem;
+
+    }
+
+    button.navbar-toggler {
+        margin: 1.5rem auto;
+    }
+
+
+    .form-card {
+        margin: 23rem auto;
+    }
+}
+
+@media (max-width: 442px) {
+
+    .showcase {
+        height: 135rem;
+    }
+
+    a.navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 2.2rem 0 2.2rem 13rem;
+    }
+
+}
+
+@media (max-width: 374px) {
+
+    .showcase .header-text h1 {
+        font-size: 5rem;
+    }
+
+    .showcase .button-1 .btn {
+        padding: 2rem 5rem;
+    }
+
+    .showcase .button-2 .btn {
+        padding: 2rem 7rem;
+    }
+}
+
+@media (max-width: 309px) {
+
+    .showcase .header-text h1 {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 243px) {
+
+    .experience-section .btn.bottom-button {
+        font-size: 4vw;
+    }
+
+    .experience-section {
+        height: 611vw;
+    }
+
+    .project-section a.btn.btn-primary.post-button {
+        font-size: 2vw;
+    }
+}
